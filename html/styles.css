@@ -1,0 +1,14 @@
+h2 .name{
+    color: aliceblue;
+}
+section{
+    width: 50%;
+    font-size: 30px;
+}
+section h2{
+    background-color: aqua;
+    font-size: 2em;
+}
+h1{
+    border: 1em solid red;
+}
