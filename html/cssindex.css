@@ -17,12 +17,12 @@ ul{
 
 li{
     width: 30%;
-    border: 2em solid tan;
+    border: solid tan;
     border-radius: 2em;
     margin-bottom: 25px;
     padding: 2.5rem;
     background: rgb(34,193,195);
-background: linear-gradient(45deg, rgba(34,193,195,1) 23%, rgba(253,187,45,1) 50%);
+    background: linear-gradient(45deg, rgba(34,193,195,1) 23%, rgba(253,187,45,1) 50%);
 }
 
 li:hover{
