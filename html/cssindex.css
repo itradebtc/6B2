@@ -17,7 +17,7 @@ ul{
 
 li{
     width: 30%;
-    border: solid tan;
+    border: 0.5em solid tan;
     border-radius: 2em;
     margin-bottom: 25px;
     padding: 2.5rem;
