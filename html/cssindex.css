@@ -19,6 +19,7 @@ li{
     width: 30%;
     border: 0.5em solid tan;
     border-radius: 2em;
+    border-style: double;
     margin-bottom: 25px;
     padding: 2.5rem;
     background: rgb(34,193,195);
