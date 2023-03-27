@@ -27,7 +27,7 @@ section{
 
 .nigeria{
     border: 1em solid rgb(0,0,0);
-    background: linear-gradient(180deg, green 33.3%, white 33.3%, white 66.6%, green 66.6%);
+    background: linear-gradient(90deg, green 33.3%, white 33.3%, white 66.6%, green 66.6%);
     margin: auto;
     margin-bottom: 20%;
 }
@@ -40,8 +40,7 @@ section{
 }
 
 .gambia{
-    border: 1em solid rgb(0,0,0);
-    background: linear-gradient(180deg, red 33.3%, white 33.3%, white 38.3%, blue 38.3%, blue 61.6%, white 61.6%, white 66.6% green 66.6%);
+    background: linear-gradient(red 33.3%, white 33.3%, white 38.3%, blue 38.3%, blue 61.6%, white 61.6%, white 66.6% green 66.6%);
     margin: auto;
     margin-bottom: 20%;
 }
