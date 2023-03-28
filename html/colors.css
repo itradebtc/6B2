@@ -1,6 +1,6 @@
 section{
-    width: 50vh;
-    height: 50vh;
+    width: 40vh;
+    height: 40vh;
     margin: auto;
 }
 
@@ -8,48 +8,48 @@ section{
     border: 1em double rgb(0,0,0);
     background: radial-gradient(red 30%,white 20%);
     margin: auto;
-    margin-bottom: 20%;
+    margin-bottom: 15%;
 }
 
 .germany{
     border: 1em solid rgb(255,255,255);
     background: linear-gradient(180deg, black 33.3%, red 33.3%, red 66.6%, yellow 66.6%);
     margin: auto;
-    margin-bottom: 20%;
+    margin-bottom: 15%;
 }
 
 .gabon{
     border: 1em solid rgb(0,0,0);
     background: linear-gradient(180deg, green 33.3%, yellow 33.3%, yellow 66.6%, blue 66.6%);
     margin: auto;
-    margin-bottom: 20%;
+    margin-bottom: 15%;
 }
 
 .nigeria{
     border: 1em solid rgb(0,0,0);
     background: linear-gradient(90deg, green 33.3%, white 33.3%, white 66.6%, green 66.6%);
     margin: auto;
-    margin-bottom: 20%;
+    margin-bottom: 15%;
 }
 
 .france{
     border: 1em solid rgb(0,0,0);
-    background: linear-gradient(180deg, blue 33.3%, white 33.3%, white 66.6%, red 66.6%);
+    background: linear-gradient(90deg, blue 33.3%, white 33.3%, white 66.6%, red 66.6%);
     margin: auto;
-    margin-bottom: 20%;
+    margin-bottom: 15%;
 }
 
 .gambia{
-    background: linear-gradient(red 33.3%, white 33.3%, white 38.3%, blue 38.3%, blue 61.6%, white 61.6%, white 66.6% green 66.6%);
+    background: linear-gradient(red 33.3%, white 33.3%, white 38.3%, blue 38.3%, blue 61.6%, white 61.6%, white 66.6%, green 66.6%);
     margin: auto;
-    margin-bottom: 20%;
+    margin-bottom: 15%;
 }
 
 .belgium{
     border: 1em solid rgb(255,255,255);
     background: linear-gradient(90deg, black 33.3%, yellow 33.3%, yellow 66.6%, red 66.6%);
     margin: auto;
-    margin-bottom: 20%;
+    margin-bottom: 15%;
 }
 
 .africa{
@@ -59,10 +59,5 @@ section{
 
 .others{
     border-left: 10px;
-    border-right: 15px;
-}
-
-h2{
-    width: fit-content;
-    background-color: rgba(0, 255, 255, 0.34);
+    border-right: 10px;
 }

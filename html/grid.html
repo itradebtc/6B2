@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        nav ul{
+            background-color: khaki;
+            display: flex;
+            justify-content: space-around;
+            list-style: none;
+            align-items: center;
+            height: 50px;
+            padding: 5px;
+        }
+        
+        nav ul li:nth-of-type(3n+1){
+            align-self: flex-start;
+        }
+        
+        nav ul li:nth-of-type(3n+3){
+            align-self: flex-end;
+        }
+        
+        main{
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-template-rows: 100px 100px 200px 200px 150px;
+            gap: 10px;
+            grid-template-areas: "a a a b"
+                                 "a a a b"
+                                 "c c c d"
+                                 "c c c d"
+                                 "e e e e";
+        }
+
+        main > :nth-child(1){
+            grid-area: a;
+        }
+
+        main > :nth-child(2){
+            grid-area: c;  
+        }
+
+        main > :nth-child(3){
+            grid-area: b;
+        }
+
+        main > :nth-child(4){
+            grid-area: d;
+        }
+
+        main > :nth-child(5){
+            grid-area: e;
+        }
+
+        main > *{
+            background-color: aqua;
+        }
+
+        div{
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            grid-template-rows: repeat(2, 200px);
+            gap: 10px;
+        }
+
+        div section:first-of-type{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(1, 200px);
+            gap: 10px;   
+        }
+        div section:last-of-type{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(1, 200px); 
+            gap: 10px;  
+        }
+        section > *{
+            background-color: fuchsia;
+        }
+        aside:first-of-type{
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            grid-template-rows: repeat(2, 100px);
+        }
+        aside > *{
+            background-color: chocolate;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>home1</li>
+                <li>home2</li>
+                <li>home3</li>
+                <li>home4</li>
+                <li>home5</li>
+                <li>home6</li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>Month</section>
+        <div>
+            <section>
+                <article>monday</article>
+                <article>tuesday</article>
+            </section>
+            <section>
+                <article>wednesday</article>
+                <article>thursday</article>
+                <article>friday</article>
+            </section>
+        </div>
+        <aside>
+            <article>saturday</article>
+            <article>sunday</article>
+        </aside>
+        <aside></aside>
+        <footer>Thebumbum</footer>
+    </main>
+</body>
+</html>

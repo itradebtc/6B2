@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        ul{
+            background-color: black;
+            list-style: none;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-end;
+            height: 150px;
+        }
+        
+        li:nth-of-type(even){
+            color: darkgreen;
+            align-self: center;
+        }
+        
+        li{
+            color: antiquewhite;
+            margin-bottom: 20px;
+            /* padding: 2em 0; */
+        }
+        
+        main{
+            display: grid;
+            grid-template-columns: repeat(3, 3fr);
+            grid-template-rows: 100px 100px 100px 200px 200px;
+            gap: 20px 10px;
+            grid-template-areas: "a a b"
+                                 "a a b"
+                                 "a a b"
+                                 "c d e"
+                                 "f f f";
+        }
+
+        section:nth-of-type(1){
+            grid-area: a;
+        }
+
+        section:nth-of-type(2){
+            grid-area: c;
+        }
+        
+        section:nth-of-type(3){
+            grid-area: d;
+        }
+
+        section:nth-of-type(){
+            grid-area: e;
+        }
+
+        aside{
+            grid-area: b;
+        }
+
+        footer{
+            grid-area: f;
+        }
+
+        section, aside, footer{
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>home1</li>
+                <li>home2</li>
+                <li>home3</li>
+                <li>home4</li>
+                <li>home5</li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>retyrtgvs</section>
+        <section>yrtheryte</section>
+        <section>thretryte</section>
+        <section>trtyrtett</section>
+        <aside>
+            <article>1111</article>
+            <article>1111</article>
+            <article>1111</article>
+        </aside>
+        <footer>wretyutry</footer>
+    </main>
+</body>
+</html>
