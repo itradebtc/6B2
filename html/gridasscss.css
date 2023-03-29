@@ -25,26 +25,27 @@ nav ul li:nth-of-type(4n+0){
     align-self: center;
 }
 
-main{
+ main{
     display: grid;
-    grid-template-columns: repeat(4,4fr);
+    grid-template-columns: repeat(4, 1fr);
     grid-template-rows: 100px, 100px, 100px, 100px, 100px, 150px;
-    grid-template-areas: "a a a c"
-                         "a a a c"
-                         "b b b c"
-                         "b b b c"
-                         "b b b c"
+    grid-template-areas: "a a a b"
+                         "a a a b"
+                         "c c c b"
+                         "c c c b"
+                         "c c c b"
                          "d d d d";
     gap: 10px;
 }
+
 main > :nth-child(1){
     grid-area: a;
 }
 main > :nth-child(2){
-    grid-area: b;
+    grid-area: c;
 }
 main > :nth-child(3){
-    grid-area: c;
+    grid-area: b;
 }
 main > :nth-child(4){
     grid-area: d;
@@ -58,6 +59,7 @@ main > :nth-child(6){
 main > *{
     background-color: gold;
 }
+
 section:nth-child(1){
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -67,7 +69,7 @@ section:nth-child(1){
 section + section{
     display: grid;
     grid-template-columns: repeat(3, 3fr);
-    grid-template-rows: 100px 100px 113px;
+    grid-template-rows: 100px 100px 100px;
     gap: 10px;
     grid-template-areas: "a a b"
                          "c c c"
@@ -80,15 +82,15 @@ section + section :nth-child(2){
     grid-area: b;
 }
 section + section :nth-child(3){
-    grid-area: d;
+    grid-area: c;
 }
 section > *{
     background-color:red;
 }
 aside:first-of-type{
-    display: grid;
     grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(5, 100px);
+    grid-template-rows: repeat(5, 5fr);
+    gap: 10px;
 }
 aside > *{
     background-color: green;
@@ -96,4 +98,4 @@ aside > *{
 footer{
     background-color: blue;
     height: 100px;
-}
+} */
