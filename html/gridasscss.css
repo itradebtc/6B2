@@ -82,12 +82,13 @@ section + section :nth-child(2){
     grid-area: b;
 }
 section + section :nth-child(3){
-    grid-area: c;
+    grid-area: d ;
 }
 section > *{
     background-color:red;
 }
 aside:first-of-type{
+    display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(5, 5fr);
     gap: 10px;
@@ -98,4 +99,4 @@ aside > *{
 footer{
     background-color: blue;
     height: 100px;
-} */
+}
