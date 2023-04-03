@@ -144,7 +144,7 @@ article:nth-child(16){
     font-size: x-large;
     padding: 1.5em;
 }
-.ass{
+.title1{
     font-size: 2.3rem;
     font-weight: bold;
     color: yellow;
@@ -152,7 +152,7 @@ article:nth-child(16){
     padding: 4.5rem;
     border: none;
 }
-.asss{
+.title2{
     display: flex;
     justify-content: center;
     font-size: 3.8rem;
@@ -167,7 +167,7 @@ article:nth-child(16){
     font-size: 1.8rem;
     padding: 1.5rem;
     font-weight: bold;
-
+    cursor: pointer;
 }
 .all:hover{
     background: linear-gradient(90deg, rgba(131,58,180,1) 32%, rgba(177,118,34,1) 66%);
