@@ -152,3 +152,15 @@ article:nth-child(16){
     padding: 4.5rem;
     border: none;
 }
+.all{
+    display: flex;
+    align-items: center;
+    font-size: 1.8rem;
+    font-weight: bold;
+    padding: 1.5rem;
+
+}
+.all:hover{
+    background: sienna;
+    text-decoration: underline;
+}
