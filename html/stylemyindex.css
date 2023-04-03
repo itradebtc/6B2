@@ -8,10 +8,9 @@
     
     body{
         height: 100vh;
-        background-color: blanchedalmond;
+        background-color: aqua;
         background-size: cover;
         background-position: center;
-        background-image: url('./media/bgi.jpg');
         background-position: center;
         background-size: cover;
     }
@@ -21,7 +20,7 @@
     }
     a{
         text-decoration: none;
-        color: #fff;
+        color: black;
         font-size: 1rem;
     }
     a:hover{
@@ -79,10 +78,9 @@
     main{
         display: grid;
         gap: 1.5rem;
-        grid-template-columns: repeat(4, 1fr);
-        grid-template-rows: repeat(7, 1fr);
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(16, 200px);
         grid-area: 15px;
-        width: 70%;
     }
     article{
         border: 0.3rem solid saddlebrown;
@@ -92,56 +90,56 @@
     }
     
     article:nth-child(1){
-        grid-area: 1/1/5/3;
+        grid-area: 1/1/2/2;
     }
     article:nth-child(2){
-        grid-area: 1/3/2/5;
+        grid-area: 2/1/3/2;
     }
     article:nth-child(3){
-        grid-area: 2/3/3/4;
+        grid-area: 3/1/4/2;
     }
     article:nth-child(4){
-        grid-area: 2/4/3/5;
+        grid-area: 4/1/5/2;
     }
     article:nth-child(5){
-        grid-area: 3/3/4/4;
+        grid-area: 5/1/6/2;
     }
     article:nth-child(6){
-        grid-area: 3/4/4/5;
+        grid-area: 6/1/7/2;
     }
     article:nth-child(7){
-        grid-area: 4/3/5/4;
-    }
-    article:nth-child(8){
-        grid-area: 4/4/5/5;
-    }
-    article:nth-child(9){
-        grid-area: 5/1/6/5;
-    }
-    article:nth-child(10){
-        grid-area: 6/1/7/3;
-    }
-    article:nth-child(11){
-        grid-area: 6/3/7/4;
-    }
-    article:nth-child(12){
-        grid-area: 6/4/7/5;
-    }
-    article:nth-child(13){
         grid-area: 7/1/8/2;
     }
+    article:nth-child(8){
+        grid-area: 8/1/9/2;
+    }
+    article:nth-child(9){
+        grid-area: 9/1/10/2;
+    }
+    article:nth-child(10){
+        grid-area: 10/1/11/2;
+    }
+    article:nth-child(11){
+        grid-area: 11/1/12/2;
+    }
+    article:nth-child(12){
+        grid-area: 12/1/13/2;
+    }
+    article:nth-child(13){
+        grid-area: 13/1/14/2;
+    }
     article:nth-child(14){
-        grid-area: 7/2/8/3;
+        grid-area: 14/1/15/2;
     }
     article:nth-child(15){
-        grid-area: 7/3/8/4;
+        grid-area: 15/1/16/2;
     }
     article:nth-child(16){
-        grid-area: 7/4/8/5;
+        grid-area: 16/1/17/2;
     }
     .bio{
         border: none;
-        color: #fff;
+        color: black;
         font-size: x-large;
         padding: 1.5em;
     }
