@@ -250,6 +250,7 @@
     .action_btn:hover {
         scale: 1.05;
         color: #fff;
+        transition: all 2s linear;
     }
     main{
         display: grid;
@@ -330,12 +331,11 @@
     }
     .title2{
         display: flex;
-        justify-content: center;
+        justify-content: right;
         font-size: 3.8rem;
         font-weight: bold;
-        color: yellow;
+        color: #ffff00;
         padding: 4.5rem;
-        border: none;
     }
     .all{
         display: flex;
