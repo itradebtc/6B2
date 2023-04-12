@@ -1,0 +1,143 @@
+body{
+    margin: 0; background: #573303;
+}
+
+.head{
+    background: #fff;
+    width: 100%;
+}
+
+a{
+    position: relative;
+    text-decoration: none;
+    font-family: 'Poppins',sans-serif;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    padding: 0 10px
+}
+
+a:after{
+    content:"";
+    position: absolute;
+    background-color: #ff3c78;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+}
+
+a:hover{
+    color: #000;
+}
+
+a:hover:after{
+    width: 100%;
+}
+
+p{
+    font-family: 'Play', sans-serif;
+}
+
+.bgkk{
+    color: transparent;
+    border-radius: 50%;
+    background: repeating-conic-gradient(from 45deg at 15% 0, transparent 0 20deg, rgb(161,98,7) 0 25deg);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+}
+
+.container a{
+    position: relative;
+    width: 160px;
+    height: 60px;
+    display: inline-block;
+    background: #fff;
+    margin: 20px;
+}
+
+.container a::before,
+.container a::after{
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: #a16207;
+    transition: 0.5s;
+}
+
+.container a:hover::before{
+    inset: -3px;
+} 
+
+.container a:hover::after{
+    inset: -3px;
+    filter: blur(10px);
+} 
+
+.container a span{
+    position: absolute;
+    top: 0; 
+    left: 0;
+    width: 100%;
+    height:
+    100%;
+    display: inline-block;
+    background: linear-gradient(45deg,#091138,#0b0915);
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #fff;
+    border: 1px solid #040a29;
+    overflow: hidden;
+}
+
+.container a:nth-child(1)::before,
+.container a:nth-child(1)::after{
+background: linear-gradient (45deg, #00ccff, #0e1538, #d400d4);
+}
+
+.container a:nth-child(2)::before,
+.container a:nth-child(2)::after{
+background: linear-gradient (45deg, #00ccff, #0e1538, #1aff22);
+}
+
+.container a:nth-child(3)::before,
+.container a:nth-child(3)::after{
+background: linear-gradient (45deg, #00ccff, #0e1538, #032fcd);
+}
+
+.skills{
+    background: #fff;
+}
+
+.contact{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #fff;
+    color: #091138;
+    width: 100%;
+    height: 100%; 
+}
+
+.icons{
+    align-items: center;
+}
+
+.contact-2{
+    display: inline-block;
+    align-self: center;
+    text-align: center;
+    font-family: 'Play', sans-serif;
+    font-size: large;
+    padding: 100px;
+}

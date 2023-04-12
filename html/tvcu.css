@@ -1,21 +1,26 @@
 div{
     display: flex;
-    background-color: aqua;
+    background-image: url(./media/bg2.gif);
+    background-size: cover;
+    background-position: center;
     height: 100vh;
     justify-content: center;
     align-items: center;
     text-align: center;
 }
+a{
+    text-decoration: none;
+}
 h1{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-transform: uppercase;
-    font-size: 2rem;
-    transition: all .5s linear ease-in-out;
+    color: #fff;
+    font-size: 3rem;
+    transition: all .5s linear ease-out;
 }
 h1:hover{
     cursor: pointer;
-    font-size: 3rem;
-    height: 30vh;
+    font-size: 4.5rem;
     color: transparent;
     background: linear-gradient(0deg, rgba(36,89,50,1) 2%, rgba(255,255,255,1) 49%, rgba(36,89,50,1) 97%);
     -webkit-background-clip: text;

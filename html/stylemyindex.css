@@ -11,8 +11,6 @@
         background-color: aqua;
         background-size: cover;
         background-position: center;
-        background-position: center;
-        background-size: cover;
     }
     
     li{
@@ -261,7 +259,7 @@
         width: 70%;
     }
     article{
-        border: 0.3rem solid saddlebrown;
+        /* border: 0.3rem solid saddlebrown; */
         border-radius: 30px;
         height: 30vh;
         align-self: center;
@@ -337,9 +335,11 @@
         color: #ffff00;
         padding: 4.5rem;
     }
+
     .all{
         display: flex;
         align-items: center;
+        border: 0.3rem solid saddlebrown;
         font-size: 1.8rem;
         padding: 1.5rem;
         font-weight: bold;

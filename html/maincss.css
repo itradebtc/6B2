@@ -1,0 +1,117 @@
+:root{
+    margin: 0;
+    padding: 0;
+    --bg-color: #cdf147;
+    --text-color: #030888;
+    --color-w: #6b2023;
+}
+body{
+    margin: 0;
+}
+.container{
+    height: 100vh;
+    background-image: 
+    url(./media/kk3.png),
+    url(./media/bg12.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+Nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px 40px;
+}
+
+nav img{
+    width: 30px;
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a{
+    margin-left: 10px;
+    text-decoration: none;
+    color: var(var(--bg-color));
+}
+
+.btn{
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    border: none;
+    pad: 10px 20px;
+    border-radius: 20px;
+    transition: all 1s ease-out;
+}
+
+.btn:hover{
+    background-color: var(--text-color);
+    color: var(--bg-color);
+}
+
+.profile{
+    width: 50%;
+    margin: 4px auto;
+}
+
+.profile h2{
+    font-family: Roboto, sans-serif;
+}
+
+.profile p, .profile span{
+    color: var(--text-color);
+    font-size: larger;
+}
+
+.profile p:last-of-type{
+    color: var(--color-w);
+}
+
+span a{
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+.about{
+    background-color: rgb(73, 142, 207);
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 1em;
+}
+
+.img{
+    background-image: url(./media/img1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 5px solid var(--bg-color);
+}
+
+.about > div{
+    height: 300px;
+    width: 30%;
+    margin-left: 20px;
+}
+
+.about h2, .about h2 ~ p{
+    color: var(--text-color);
+}
+
+.about h3, .about h2 + p{
+    color: var(--bg-color);
+}
+
+.second{
+    background-color: transparent;
+    color: var(--bg-color);
+    border: 1px solid var(--bg-color);
+    margin-left: 10px;
+}
