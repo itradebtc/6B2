@@ -5,6 +5,8 @@ body{
 .head{
     background: #fff;
     width: 100%;
+    z-index: 99999;
+    opacity: 100%;
 }
 
 a{
@@ -134,9 +136,10 @@ background: linear-gradient (45deg, #00ccff, #0e1538, #032fcd);
 }
 
 .contact-2{
-    display: inline-block;
-    align-self: center;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-self: center; */
     font-family: 'Play', sans-serif;
     font-size: large;
     padding: 100px;
